@@ -1,0 +1,74 @@
+{
+  "_fv": 24,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "op_armor_head",
+    "enableBody": true,
+    "textureBody": "op_armor_body",
+    "enableLeggings": true,
+    "textureLeggings": "op_armor_leggings",
+    "enableBoots": true,
+    "textureBoots": "op_armor_boots",
+    "onHelmetTick": {
+      "name": "OPArmorArmorHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "OPArmorArmorHelmetTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "OPArmorArmorHelmetTickEvent"
+    },
+    "onBootsTick": {
+      "name": "OPArmorArmorHelmetTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:SuperArmorandTools"
+    },
+    "armorTextureFile": "op_armor",
+    "helmetName": "OP_Armor Helmet",
+    "bodyName": "OP_Armor Chestplate",
+    "leggingsName": "OP_Armor Leggings",
+    "bootsName": "OP_Armor Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 1024,
+    "damageValueHelmet": 0,
+    "damageValueBody": 0,
+    "damageValueLeggings": 0,
+    "damageValueBoots": 0,
+    "enchantability": 100,
+    "toughness": 10.0,
+    "knockbackResistance": 5.0,
+    "equipSound": {
+      "value": "item.armor.equip_generic"
+    },
+    "repairItems": [
+      {
+        "value": "Blocks.COMMAND_BLOCK"
+      }
+    ]
+  }
+}

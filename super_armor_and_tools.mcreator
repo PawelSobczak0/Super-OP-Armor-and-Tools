@@ -1,0 +1,205 @@
+{
+  "mod_elements": [
+    {
+      "name": "OP_ToolPickaxe",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_tool_pickaxe"
+    },
+    {
+      "name": "OP_ToolAxe",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_tool_axe"
+    },
+    {
+      "name": "OP_ToolSword",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_tool_sword"
+    },
+    {
+      "name": "OP_ToolShovel",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_tool_shovel"
+    },
+    {
+      "name": "OP_ToolHoe",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_tool_hoe"
+    },
+    {
+      "name": "OP_ToolPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_tool_pickaxe_recipe"
+    },
+    {
+      "name": "OP_ToolAxeRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_tool_axe_recipe"
+    },
+    {
+      "name": "OP_ToolSwordRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_tool_sword_recipe"
+    },
+    {
+      "name": "OP_ToolShovelRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_tool_shovel_recipe"
+    },
+    {
+      "name": "OP_ToolHoeRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_tool_hoe_recipe"
+    },
+    {
+      "name": "SuperArmorandTools",
+      "type": "tab",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_armorand_tools"
+    },
+    {
+      "name": "OP_ArmorArmor",
+      "type": "armor",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "OP_ArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "OP_ArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_armor_armor_body_recipe"
+    },
+    {
+      "name": "OP_ArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "OP_ArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_armor_armor_boots_recipe"
+    },
+    {
+      "name": "OPArmorArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_armor_armor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "pl_pl": {
+      "item.super_armor_and_tools.op_armor_armor_helmet": "OP_Tool Che³m",
+      "itemGroup.tabsuper_armorand_tools": "Super Armor and Tools",
+      "item.super_armor_and_tools.op_tool_pickaxe": "OP_Tool Kilof",
+      "item.super_armor_and_tools.op_armor_armor_chestplate": "OP_Armor Napierœnik",
+      "item.super_armor_and_tools.op_tool_axe": "OP_Tool Siekiera",
+      "item.super_armor_and_tools.op_tool_hoe": "OP_Tool Motyka",
+      "item.super_armor_and_tools.op_tool_sword": "OP_Tool Miecz",
+      "item.super_armor_and_tools.op_tool_shovel": "OP_Tool £opata",
+      "item.super_armor_and_tools.op_armor_armor_leggings": "OP_Armor Spodnie",
+      "item.super_armor_and_tools.op_armor_armor_boots": "OP_Armor Buty"
+    },
+    "en_us": {
+      "item.super_armor_and_tools.op_armor_armor_helmet": "OP_Armor Helmet",
+      "itemGroup.tabsuper_armorand_tools": "Super Armor and Tools",
+      "item.super_armor_and_tools.op_tool_pickaxe": "OP_Tool Pickaxe",
+      "item.super_armor_and_tools.op_armor_armor_chestplate": "OP_Armor Chestplate",
+      "item.super_armor_and_tools.op_tool_axe": "OP_Tool Axe",
+      "item.super_armor_and_tools.op_tool_hoe": "OP_Tool Hoe",
+      "item.super_armor_and_tools.op_tool_sword": "OP_Tool Sword",
+      "item.super_armor_and_tools.op_tool_shovel": "OP_Tool Shovel",
+      "item.super_armor_and_tools.op_armor_armor_leggings": "OP_Armor Leggings",
+      "item.super_armor_and_tools.op_armor_armor_boots": "OP_Armor Boots"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "super_armor_and_tools",
+    "modName": "Super Armor and Tools",
+    "version": "1.0.0",
+    "author": "Pawelsky000",
+    "websiteURL": "https://github.com/PawelSobczak0/Super-Armor-and-Tools",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Pawelsky000",
+    "modElementsPackage": "pl.superarmorandtools",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

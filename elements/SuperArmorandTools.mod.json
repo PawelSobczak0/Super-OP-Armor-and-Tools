@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "Super Armor and Tools",
+    "icon": {
+      "value": "Blocks.COMMAND_BLOCK"
+    },
+    "showSearch": true
+  }
+}

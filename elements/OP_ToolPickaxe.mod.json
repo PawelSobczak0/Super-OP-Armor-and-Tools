@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "op_tool_pickaxe",
+    "customModelName": "Normal",
+    "name": "OP_Tool Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:SuperArmorandTools"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 128000,
+    "efficiency": 128000.0,
+    "attackSpeed": 100.0,
+    "enchantability": 128000,
+    "damageVsEntity": 128000.0,
+    "usageCount": 128000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.COMMAND_BLOCK"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

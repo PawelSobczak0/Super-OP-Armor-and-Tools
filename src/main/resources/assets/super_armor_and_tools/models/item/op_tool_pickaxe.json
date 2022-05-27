@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "super_armor_and_tools:items/op_tool_pickaxe"
+  }
+}

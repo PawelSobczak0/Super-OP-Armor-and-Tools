@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:command_block"
+    },
+    "2": {
+      "item": "minecraft:command_block"
+    },
+    "3": {
+      "item": "minecraft:command_block"
+    },
+    "4": {
+      "item": "minecraft:command_block"
+    },
+    "5": {
+      "item": "minecraft:command_block"
+    },
+    "6": {
+      "item": "minecraft:command_block"
+    },
+    "7": {
+      "item": "minecraft:command_block"
+    },
+    "8": {
+      "item": "minecraft:command_block"
+    }
+  },
+  "result": {
+    "item": "super_armor_and_tools:op_armor_armor_chestplate",
+    "count": 1
+  }
+}

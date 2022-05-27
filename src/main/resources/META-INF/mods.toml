@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="super_armor_and_tools"
+version="1.0.0"
+displayName="Super Armor and Tools"
+credits="Pawelsky000"
+displayURL="https://github.com/PawelSobczak0/Super-Armor-and-Tools"
+authors="Pawelsky000"
+
+[[dependencies.super_armor_and_tools]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
