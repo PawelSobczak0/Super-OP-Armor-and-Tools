@@ -149,34 +149,100 @@
           }
         ]
       }
+    },
+    {
+      "name": "OPEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OP",
+      "type": "potioneffect",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op"
+    },
+    {
+      "name": "OPPotion",
+      "type": "potion",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_potion"
+    },
+    {
+      "name": "OPACommandExecuted",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opa_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OPA",
+      "type": "command",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opa"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "pl_pl": {
-      "item.super_armor_and_tools.op_armor_armor_helmet": "OP_Tool Che³m",
+      "item.super_armor_and_tools.op_armor_armor_helmet": "OP_Tool Chelm",
+      "item.minecraft.potion.effect.op_potion": "OP Potion",
       "itemGroup.tabsuper_armorand_tools": "Super Armor and Tools",
       "item.super_armor_and_tools.op_tool_pickaxe": "OP_Tool Kilof",
-      "item.super_armor_and_tools.op_armor_armor_chestplate": "OP_Armor Napierœnik",
-      "item.super_armor_and_tools.op_tool_axe": "OP_Tool Siekiera",
+      "item.super_armor_and_tools.op_armor_armor_chestplate": "OP_Armor Napiersnik",
+      "item.minecraft.splash_potion.effect.op_potion": "Splash OP Potion",
       "item.super_armor_and_tools.op_tool_hoe": "OP_Tool Motyka",
+      "item.super_armor_and_tools.op_tool_shovel": "OP_Tool Lopata",
+      "effect.op": "Super OP Mikstura",
+      "item.super_armor_and_tools.op_armor_armor_boots": "OP_Armor Buty",
+      "item.minecraft.tipped_arrow.effect.op_potion": "Arrow OP Potion",
+      "item.super_armor_and_tools.op_tool_axe": "OP_Tool Siekiera",
       "item.super_armor_and_tools.op_tool_sword": "OP_Tool Miecz",
-      "item.super_armor_and_tools.op_tool_shovel": "OP_Tool £opata",
       "item.super_armor_and_tools.op_armor_armor_leggings": "OP_Armor Spodnie",
-      "item.super_armor_and_tools.op_armor_armor_boots": "OP_Armor Buty"
+      "item.minecraft.lingering_potion.effect.op_potion": "Lingering OP Potion"
     },
     "en_us": {
       "item.super_armor_and_tools.op_armor_armor_helmet": "OP_Armor Helmet",
+      "item.minecraft.potion.effect.op_potion": "OP Potion",
       "itemGroup.tabsuper_armorand_tools": "Super Armor and Tools",
       "item.super_armor_and_tools.op_tool_pickaxe": "OP_Tool Pickaxe",
       "item.super_armor_and_tools.op_armor_armor_chestplate": "OP_Armor Chestplate",
-      "item.super_armor_and_tools.op_tool_axe": "OP_Tool Axe",
+      "item.minecraft.splash_potion.effect.op_potion": "Splash OP Potion",
       "item.super_armor_and_tools.op_tool_hoe": "OP_Tool Hoe",
-      "item.super_armor_and_tools.op_tool_sword": "OP_Tool Sword",
       "item.super_armor_and_tools.op_tool_shovel": "OP_Tool Shovel",
+      "effect.op": "Super OP Potion",
+      "item.super_armor_and_tools.op_armor_armor_boots": "OP_Armor Boots",
+      "item.minecraft.tipped_arrow.effect.op_potion": "Arrow OP Potion",
+      "item.super_armor_and_tools.op_tool_axe": "OP_Tool Axe",
+      "item.super_armor_and_tools.op_tool_sword": "OP_Tool Sword",
       "item.super_armor_and_tools.op_armor_armor_leggings": "OP_Armor Leggings",
-      "item.super_armor_and_tools.op_armor_armor_boots": "OP_Armor Boots"
+      "item.minecraft.lingering_potion.effect.op_potion": "Lingering OP Potion"
     }
   },
   "foldersRoot": {
@@ -186,12 +252,13 @@
   "workspaceSettings": {
     "modid": "super_armor_and_tools",
     "modName": "Super Armor and Tools",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "Pawelsky000",
     "websiteURL": "https://github.com/PawelSobczak0/Super-Armor-and-Tools",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "637847941379581994",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
@@ -201,5 +268,5 @@
     "modElementsPackage": "pl.superarmorandtools",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100354000
+  "mcreatorVersion": 202200120510
 }

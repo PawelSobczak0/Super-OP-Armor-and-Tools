@@ -1,12 +1,17 @@
 {
-  "item.super_armor_and_tools.op_armor_armor_helmet": "OP_Tool Chełm",
+  "item.super_armor_and_tools.op_armor_armor_helmet": "OP_Tool Chelm",
+  "item.minecraft.potion.effect.op_potion": "OP Potion",
   "itemGroup.tabsuper_armorand_tools": "Super Armor and Tools",
   "item.super_armor_and_tools.op_tool_pickaxe": "OP_Tool Kilof",
-  "item.super_armor_and_tools.op_armor_armor_chestplate": "OP_Armor Napierśnik",
-  "item.super_armor_and_tools.op_tool_axe": "OP_Tool Siekiera",
+  "item.super_armor_and_tools.op_armor_armor_chestplate": "OP_Armor Napiersnik",
+  "item.minecraft.splash_potion.effect.op_potion": "Splash OP Potion",
   "item.super_armor_and_tools.op_tool_hoe": "OP_Tool Motyka",
+  "item.super_armor_and_tools.op_tool_shovel": "OP_Tool Lopata",
+  "effect.op": "Super OP Mikstura",
+  "item.super_armor_and_tools.op_armor_armor_boots": "OP_Armor Buty",
+  "item.minecraft.tipped_arrow.effect.op_potion": "Arrow OP Potion",
+  "item.super_armor_and_tools.op_tool_axe": "OP_Tool Siekiera",
   "item.super_armor_and_tools.op_tool_sword": "OP_Tool Miecz",
-  "item.super_armor_and_tools.op_tool_shovel": "OP_Tool Łopata",
   "item.super_armor_and_tools.op_armor_armor_leggings": "OP_Armor Spodnie",
-  "item.super_armor_and_tools.op_armor_armor_boots": "OP_Armor Buty"
+  "item.minecraft.lingering_potion.effect.op_potion": "Lingering OP Potion"
 }

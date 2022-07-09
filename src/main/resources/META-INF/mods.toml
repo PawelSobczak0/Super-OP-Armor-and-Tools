@@ -4,10 +4,11 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="super_armor_and_tools"
-version="1.0.1"
+version="1.0.2"
 displayName="Super Armor and Tools"
 credits="Pawelsky000"
 displayURL="https://github.com/PawelSobczak0/Super-Armor-and-Tools"
+logoFile="logo.png"
 authors="Pawelsky000"
 
 [[dependencies.super_armor_and_tools]]

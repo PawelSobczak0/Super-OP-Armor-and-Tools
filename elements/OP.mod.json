@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Super OP Potion",
+    "icon": "dragon27s_breath_je2_be2.png",
+    "color": {
+      "value": -256,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "OPEffectStartedapplied"
+    }
+  }
+}
