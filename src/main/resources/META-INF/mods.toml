@@ -9,7 +9,7 @@ displayName="Super Armor and Tools"
 credits="Pawelsky000"
 displayURL="https://github.com/PawelSobczak0/Super-Armor-and-Tools"
 logoFile="logo.png"
-authors="Pawelsky000"
+authors="FixeQ"
 
 [[dependencies.super_armor_and_tools]]
     modId="minecraft"

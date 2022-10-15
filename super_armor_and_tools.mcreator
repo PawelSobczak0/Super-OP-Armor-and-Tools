@@ -225,7 +225,7 @@
       "item.super_armor_and_tools.op_tool_axe": "OP_Tool Siekiera",
       "item.super_armor_and_tools.op_tool_sword": "OP_Tool Miecz",
       "item.super_armor_and_tools.op_armor_armor_leggings": "OP_Armor Spodnie",
-      "item.minecraft.lingering_potion.effect.op_potion": "Lingering OP Potion"
+      "item.minecraft.lingering_potion.effect.op_potion": " OP Potion"
     },
     "en_us": {
       "item.super_armor_and_tools.op_armor_armor_helmet": "OP_Armor Helmet",
@@ -253,7 +253,7 @@
     "modid": "super_armor_and_tools",
     "modName": "Super Armor and Tools",
     "version": "1.0.2",
-    "author": "Pawelsky000",
+    "author": "FixeQ",
     "websiteURL": "https://github.com/PawelSobczak0/Super-Armor-and-Tools",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
@@ -268,5 +268,5 @@
     "modElementsPackage": "pl.superarmorandtools",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200120510
+  "mcreatorVersion": 202200234517
 }
