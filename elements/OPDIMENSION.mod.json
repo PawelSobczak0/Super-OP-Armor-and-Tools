@@ -1,0 +1,42 @@
+{
+  "_fv": 33,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "birch_forest"
+      }
+    ],
+    "worldGenType": "Nether like gen",
+    "mainFillerBlock": {
+      "value": "Blocks.EMERALD_BLOCK"
+    },
+    "fluidBlock": {
+      "value": "Blocks.DIAMOND_BLOCK"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.DIAMOND_BLOCK"
+    },
+    "portalParticles": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "OP Portal Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:SuperArmorandTools"
+    },
+    "texture": "eee",
+    "portalTexture": "aaa",
+    "enablePortal": true
+  }
+}

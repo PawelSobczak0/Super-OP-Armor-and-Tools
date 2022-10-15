@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "super_armor_and_tools:block/opdimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "super_armor_and_tools:block/opdimension_portal_ns"
+    }
+  }
+}
